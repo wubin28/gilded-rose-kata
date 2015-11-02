@@ -1,6 +1,26 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.
-Time: 0.017
-
-OK (1 test)
-
+GildedRose.java:2: error: cannot find symbol
+    Item[] items;
+    ^
+  symbol:   class Item
+  location: class GildedRose
+GildedRose.java:4: error: cannot find symbol
+    public GildedRose(Item[] items) {
+                      ^
+  symbol:   class Item
+  location: class GildedRose
+GildedRoseTest.java:8: error: cannot find symbol
+        Item[] items = new Item[] { new Item("foo", 0, 0) };
+        ^
+  symbol:   class Item
+  location: class GildedRoseTest
+GildedRoseTest.java:8: error: cannot find symbol
+        Item[] items = new Item[] { new Item("foo", 0, 0) };
+                           ^
+  symbol:   class Item
+  location: class GildedRoseTest
+GildedRoseTest.java:8: error: cannot find symbol
+        Item[] items = new Item[] { new Item("foo", 0, 0) };
+                                        ^
+  symbol:   class Item
+  location: class GildedRoseTest
+5 errors
