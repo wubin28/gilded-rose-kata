@@ -2,7 +2,6 @@ public enum QualityAndSellInCalculator {
     Aged_Brie {
         @Override
         public void updateQualityAndSellIn(Item item) {
-            System.out.println(">>>In Aged Brie.");
             if (item.quality < 50) item.quality += 1;
 
             item.sellIn -= 1;
@@ -15,13 +14,11 @@ public enum QualityAndSellInCalculator {
     Sulfuras_Hand_Of_Ragnaros {
         @Override
         public void updateQualityAndSellIn(Item item) {
-            System.out.println(">>>In Sulfuras");
         }
     },
     Backstage_Passes_To_A_TAFKAL80ETC_Concert {
         @Override
         public void updateQualityAndSellIn(Item item) {
-            System.out.println(">>>In Backstage");
             if (item.quality < 50) {
                 item.quality += 1;
 

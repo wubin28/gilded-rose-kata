@@ -1,21 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.>>>In IllegalArgumentException.
-.>>>In Backstage
-.>>>In Aged Brie.
-.>>>In IllegalArgumentException.
-.>>>In Sulfuras
-.>>>In Backstage
-.>>>In Backstage
-.>>>In Aged Brie.
-.>>>In IllegalArgumentException.
->>>In Backstage
->>>In IllegalArgumentException.
-.>>>In Backstage
-.>>>In IllegalArgumentException.
-.>>>In Backstage
-.>>>In Aged Brie.
-
-Time: 0.058
+.............
+Time: 0.051
 
 OK (13 tests)
 
@@ -32,15 +17,6 @@ Backstage passes to a TAFKAL80ETC concert, 10, 49
 Backstage passes to a TAFKAL80ETC concert, 5, 49
 Conjured Mana Cake, 3, 6
 
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
 -------- day 1 --------
 name, sellIn, quality
 +5 Dexterity Vest, 9, 19
@@ -53,12 +29,3 @@ Backstage passes to a TAFKAL80ETC concert, 9, 48
 Backstage passes to a TAFKAL80ETC concert, 4, 48
 Conjured Mana Cake, 2, 5
 
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.

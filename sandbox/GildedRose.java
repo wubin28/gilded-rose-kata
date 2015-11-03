@@ -10,10 +10,6 @@ class GildedRose {
             try {
                 QualityAndSellInCalculator.valueOf(items[i].name).updateQualityAndSellIn(items[i]);
             } catch (IllegalArgumentException illegalArgumentException) {
-
-                System.out.println(">>>In IllegalArgumentException.");
-
-
                 if (items[i].quality > 0) {
                     items[i].quality -= 1;
                 }
