@@ -45,7 +45,20 @@ public class GildedRoseTest {
         assertEquals(21, items[0].quality);
     }
 
-    // TODO: quality_of_aged_brie_should_increase_up_to_50
+    @Test
+    public void quality_of_aged_brie_should_increase_up_to_50() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("Aged Brie", 10, 50) };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(50, items[0].quality);
+    }
+
     // TODO: quality_of_backstage_passes_should_increase_by_1_if_sellIn_is_more_than_10
     // TODO: quality_of_backstage_passes_should_increase_by_2_if_sellIn_is_more_than_5_and_less_than_11
     // TODO: quality_of_backstage_passes_should_increase_by_3_if_sellIn_is_more_than_0_and_less_than_6
