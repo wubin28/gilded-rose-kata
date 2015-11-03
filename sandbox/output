@@ -15,7 +15,7 @@ E.>>>In IllegalArgumentException.
 .>>>In IllegalArgumentException.
 .>>>In IllegalArgumentException.
 
-Time: 0.042
+Time: 0.057
 There was 1 failure:
 1) sellIn_of_sulfuras_should_never_be_changed(GildedRoseTest)
 java.lang.AssertionError: expected:<80> but was:<78>
