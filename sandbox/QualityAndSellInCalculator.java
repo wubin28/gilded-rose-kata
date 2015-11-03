@@ -2,19 +2,19 @@ public enum QualityAndSellInCalculator {
     AgedBrie("Aged Brie") {
         @Override
         public void updateQualityAndSellIn(Item item) {
-            System.out.println("===In Aged Brie.");
+            System.out.println(">>>In Aged Brie.");
         }
     },
     Sulfuras("Sulfuras, Hand of Ragnaros") {
         @Override
         public void updateQualityAndSellIn(Item item) {
-            System.out.println("===In Sulfuras");
+            System.out.println(">>>In Sulfuras");
         }
     },
     BackStagePasses("Backstage passes to a TAFKAL80ETC concert") {
         @Override
         public void updateQualityAndSellIn(Item item) {
-            System.out.println("===In Backstage");
+            System.out.println(">>>In Backstage");
         }
     }
     ;

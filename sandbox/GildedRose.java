@@ -10,6 +10,9 @@ class GildedRose {
             try {
                 QualityAndSellInCalculator.valueOf(items[i].name).updateQualityAndSellIn(items[i]);
             } catch (IllegalArgumentException illegalArgumentException) {
+
+                System.out.println(">>>In IllegalArgumentException.");
+
                 if (items[i].name.equals("Aged Brie")) {
                     if (items[i].quality < 50) items[i].quality += 1;
 

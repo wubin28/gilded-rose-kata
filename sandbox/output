@@ -1,6 +1,21 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-...E..........
-Time: 0.066
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+E.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+.>>>In IllegalArgumentException.
+
+Time: 0.058
 There was 1 failure:
 1) sellIn_of_sulfuras_should_never_be_changed(GildedRoseTest)
 java.lang.AssertionError: expected:<80> but was:<78>
@@ -58,6 +73,15 @@ Backstage passes to a TAFKAL80ETC concert, 10, 49
 Backstage passes to a TAFKAL80ETC concert, 5, 49
 Conjured Mana Cake, 3, 6
 
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
 -------- day 1 --------
 name, sellIn, quality
 +5 Dexterity Vest, 9, 19
@@ -70,3 +94,12 @@ Backstage passes to a TAFKAL80ETC concert, 9, 50
 Backstage passes to a TAFKAL80ETC concert, 4, 50
 Conjured Mana Cake, 2, 5
 
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
+>>>In IllegalArgumentException.
