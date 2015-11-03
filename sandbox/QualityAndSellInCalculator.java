@@ -1,5 +1,5 @@
 public enum QualityAndSellInCalculator {
-    AgedBrie {
+    Aged_Brie {
         @Override
         public void updateQualityAndSellIn(Item item) {
             System.out.println(">>>In Aged Brie.");
@@ -12,13 +12,13 @@ public enum QualityAndSellInCalculator {
             }
         }
     },
-    SulfurasHandOfRagnaros {
+    Sulfuras_Hand_Of_Ragnaros {
         @Override
         public void updateQualityAndSellIn(Item item) {
             System.out.println(">>>In Sulfuras");
         }
     },
-    BackstagePassesToATAFKAL80ETCConcert {
+    Backstage_Passes_To_A_TAFKAL80ETC_Concert {
         @Override
         public void updateQualityAndSellIn(Item item) {
             System.out.println(">>>In Backstage");

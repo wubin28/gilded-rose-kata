@@ -35,7 +35,7 @@ public class GildedRoseTest {
     public void quality_of_aged_brie_should_increase_at_the_end_of_each_day() {
         // Given
         Item[] items = new Item[] {
-            new Item("AgedBrie", 10, 20) };
+            new Item("Aged_Brie", 10, 20) };
         GildedRose app = new GildedRose(items);
 
         // When
@@ -49,7 +49,7 @@ public class GildedRoseTest {
     public void quality_of_aged_brie_should_increase_up_to_50() {
         // Given
         Item[] items = new Item[] {
-            new Item("AgedBrie", 10, 50) };
+            new Item("Aged_Brie", 10, 50) };
         GildedRose app = new GildedRose(items);
 
         // When
@@ -63,7 +63,7 @@ public class GildedRoseTest {
     public void quality_of_backstage_passes_should_increase_by_1_if_sellIn_is_more_than_10() {
         // Given
         Item[] items = new Item[] {
-            new Item("BackstagePassesToATAFKAL80ETCConcert", 11, 20) };
+            new Item("Backstage_Passes_To_A_TAFKAL80ETC_Concert", 11, 20) };
         GildedRose app = new GildedRose(items);
 
         // When
@@ -77,7 +77,7 @@ public class GildedRoseTest {
     public void quality_of_backstage_passes_should_increase_by_2_if_sellIn_is_more_than_5_and_less_than_11() {
         // Given
         Item[] items = new Item[] {
-            new Item("BackstagePassesToATAFKAL80ETCConcert", 6, 20) };
+            new Item("Backstage_Passes_To_A_TAFKAL80ETC_Concert", 6, 20) };
         GildedRose app = new GildedRose(items);
 
         // When
@@ -91,7 +91,7 @@ public class GildedRoseTest {
     public void quality_of_backstage_passes_should_increase_by_3_if_sellIn_is_more_than_0_and_less_than_6() {
         // Given
         Item[] items = new Item[] {
-            new Item("BackstagePassesToATAFKAL80ETCConcert", 5, 20) };
+            new Item("Backstage_Passes_To_A_TAFKAL80ETC_Concert", 5, 20) };
         GildedRose app = new GildedRose(items);
 
         // When
@@ -105,7 +105,7 @@ public class GildedRoseTest {
     public void quality_of_backstage_passes_should_increase_up_to_50() {
         // Given
         Item[] items = new Item[] {
-            new Item("BackstagePassesToATAFKAL80ETCConcert", 5, 50) };
+            new Item("Backstage_Passes_To_A_TAFKAL80ETC_Concert", 5, 50) };
         GildedRose app = new GildedRose(items);
 
         // When
@@ -119,7 +119,7 @@ public class GildedRoseTest {
     public void sellIn_of_sulfuras_should_never_be_changed() {
         // Given
         Item[] items = new Item[] {
-            new Item("SulfurasHandOfRagnaros", 0, 80) };
+            new Item("Sulfuras_Hand_Of_Ragnaros", 0, 80) };
         GildedRose app = new GildedRose(items);
 
         // When
@@ -134,7 +134,7 @@ public class GildedRoseTest {
         // Given
         Item[] items = new Item[] {
             new Item("Aged Brie", 0, 20),
-            new Item("BackstagePassesToATAFKAL80ETCConcert", 10, 20),
+            new Item("Backstage_Passes_To_A_TAFKAL80ETC_Concert", 10, 20),
             new Item("+5 Dexterity Vest", -1, 50),
             };
         GildedRose app = new GildedRose(items);
@@ -167,7 +167,7 @@ public class GildedRoseTest {
     public void quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_or_equal_to_0() {
         // Given
         Item[] items = new Item[] {
-            new Item("BackstagePassesToATAFKAL80ETCConcert", 0, 20)
+            new Item("Backstage_Passes_To_A_TAFKAL80ETC_Concert", 0, 20)
             };
         GildedRose app = new GildedRose(items);
 
@@ -182,7 +182,7 @@ public class GildedRoseTest {
     public void quality_of_aged_brie_should_increase_by_2_if_sellIn_is_less_than_or_equal_to_0() {
         // Given
         Item[] items = new Item[] {
-            new Item("AgedBrie", 0, 20)
+            new Item("Aged_Brie", 0, 20)
             };
         GildedRose app = new GildedRose(items);
 

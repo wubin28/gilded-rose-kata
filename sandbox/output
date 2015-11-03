@@ -1,5 +1,7 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
+.>>>In IllegalArgumentException.
 .>>>In Backstage
+.>>>In Aged Brie.
 .>>>In IllegalArgumentException.
 .>>>In Sulfuras
 .>>>In Backstage
@@ -12,10 +14,8 @@ JUnit version 4.11-SNAPSHOT-20120416-1530
 .>>>In IllegalArgumentException.
 .>>>In Backstage
 .>>>In Aged Brie.
-.>>>In IllegalArgumentException.
-.>>>In Aged Brie.
 
-Time: 0.052
+Time: 0.058
 
 OK (13 tests)
 
