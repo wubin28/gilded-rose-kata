@@ -7,11 +7,15 @@ class GildedRose {
 
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
+            QualityAndSellInCalculator.valueOf(items[i].name).updateQualityAndSellIn(items[i]);
+
             if (items[i].name.equals("Sulfuras, Hand of Ragnaros")) continue;
 
             if (items[i].name.equals("Aged Brie")) {
                 if (items[i].quality < 50) items[i].quality += 1;
+
                 items[i].sellIn -= 1;
+
                 if (items[i].sellIn < 0 && items[i].quality < 50) {
                     items[i].quality += 1;
                 }
