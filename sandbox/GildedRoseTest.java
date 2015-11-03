@@ -31,8 +31,20 @@ public class GildedRoseTest {
         assertEquals(0, items[0].quality);
     }
 
+    @Test
+    public void quality_of_aged_brie_should_increase_at_the_end_of_each_day() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("Aged Brie", 10, 20) };
+        GildedRose app = new GildedRose(items);
 
-    // TODO: quality_of_aged_brie_should_increase_at_the_end_of_each_day
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(21, items[0].quality);
+    }
+
     // TODO: quality_of_aged_brie_should_increase_up_to_50
     // TODO: quality_of_backstage_passes_should_increase_by_1_if_sellIn_is_more_than_10
     // TODO: quality_of_backstage_passes_should_increase_by_2_if_sellIn_is_more_than_5_and_less_than_11
