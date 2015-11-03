@@ -31,7 +31,7 @@ public enum QualityAndSellInCalculator {
     }
     ;
 
-    private String displayName;
+    protected String displayName;
 
     QualityAndSellInCalculator(String displayName) {
         this.displayName = displayName;
