@@ -4,14 +4,6 @@ import static org.junit.Assert.*;
 public class GildedRoseTest {
 
     @Test
-    public void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
-        GildedRose app = new GildedRose(items);
-        app.updateQuality();
-        assertEquals("foo", app.items[0].name);
-    }
-
-    @Test
     public void quality_of_normal_item_should_degrade_at_the_end_of_each_day() {
         // Given
         Item[] items = new Item[] {
