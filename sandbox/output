@@ -1,7 +1,14 @@
-GildedRose.java:10: error: cannot find symbol
-            QualityAndSellInCalculator.valueOf(items[i].name).updateQualityAndSellIn(items[i]);
-                                                             ^
-  symbol:   method updateQualityAndSellIn(Item)
-  location: class QualityAndSellInCalculator
-1 error
+QualityAndSellInCalculator.java:2: error: <anonymous QualityAndSellInCalculator$1> is not abstract and does not override abstract method updateQualityAndSellIn(Item) in QualityAndSellInCalculator
+    AgedBrie {
+    ^
+QualityAndSellInCalculator.java:4: error: <anonymous QualityAndSellInCalculator$2> is not abstract and does not override abstract method updateQualityAndSellIn(Item) in QualityAndSellInCalculator
+    Sulfuras {
+    ^
+QualityAndSellInCalculator.java:6: error: <anonymous QualityAndSellInCalculator$3> is not abstract and does not override abstract method updateQualityAndSellIn(Item) in QualityAndSellInCalculator
+    BackStagePasses {
+    ^
+QualityAndSellInCalculator.java:10: error: abstract methods cannot have a body
+    public abstract String updateQualityAndSellIn(Item item) {
+                           ^
+4 errors
 Error: Could not find or load main class TexttestFixture

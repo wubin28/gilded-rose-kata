@@ -7,4 +7,6 @@ public enum QualityAndSellInCalculator {
     }
     ;
     
+    public abstract String updateQualityAndSellIn(Item item) {
+    }
 }
