@@ -1,6 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.....E........
-Time: 0.05
+...E..........
+Time: 0.066
 There was 1 failure:
 1) sellIn_of_sulfuras_should_never_be_changed(GildedRoseTest)
 java.lang.AssertionError: expected:<80> but was:<78>
