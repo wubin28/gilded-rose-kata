@@ -15,6 +15,12 @@ public enum QualityAndSellInCalculator {
         }
     }
     ;
+
+    private String displayName;
+
+    QualityAndSellInCalculator(String displayName) {
+        this.displayName = displayName;
+    }
     
     public abstract void updateQualityAndSellIn(Item item);
 }
