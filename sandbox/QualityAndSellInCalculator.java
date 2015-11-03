@@ -48,7 +48,7 @@ public enum QualityAndSellInCalculator {
         public void updateQualityAndSellIn(Item item) {
             if (item.quality > 0) {
                 item.quality -= 2;
-                if (item.quality == 0) item.quality = 0;
+                if (item.quality < 0) item.quality = 0;
             }
 
             item.sellIn -= 1;
@@ -56,7 +56,7 @@ public enum QualityAndSellInCalculator {
             if (item.sellIn < 0) {
                 if (item.quality > 0) {
                     item.quality -= 2;
-                    if (item.quality == 0) item.quality = 0;
+                    if (item.quality < 0) item.quality = 0;
                 }
             }
         }
