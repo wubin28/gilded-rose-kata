@@ -160,7 +160,7 @@ public class GildedRoseTest {
         app.updateQuality();
 
         // Then
-        assertEquals(18, items[0].sellIn);
+        assertEquals(18, items[0].quality);
     }
 
     // TODO: quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_0
