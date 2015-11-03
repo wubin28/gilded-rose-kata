@@ -26,4 +26,9 @@ public enum QualityAndSellInCalculator {
     }
     
     public abstract void updateQualityAndSellIn(Item item);
+
+    @Override
+    public String toString() {
+        return this.displayName;
+    }
 }
