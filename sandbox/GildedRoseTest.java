@@ -17,7 +17,21 @@ public class GildedRoseTest {
         assertEquals(19, items[0].quality);
     }
 
-    // TODO: quality_of_normal_item_should_not_degrade_to_be_negative
+    @Test
+    public void quality_of_normal_item_should_not_degrade_to_be_negative() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("+5 Dexterity Vest", 10, 0) };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(0, items[0].quality);
+    }
+
+
     // TODO: quality_of_aged_brie_should_increase_at_the_end_of_each_day
     // TODO: quality_of_aged_brie_should_increase_up_to_50
     // TODO: quality_of_backstage_passes_should_increase_by_1_if_sellIn_is_more_than_10
