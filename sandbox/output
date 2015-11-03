@@ -1,14 +1,5 @@
-QualityAndSellInCalculator.java:2: error: <anonymous QualityAndSellInCalculator$1> is not abstract and does not override abstract method updateQualityAndSellIn(Item) in QualityAndSellInCalculator
-    AgedBrie {
-    ^
-QualityAndSellInCalculator.java:4: error: <anonymous QualityAndSellInCalculator$2> is not abstract and does not override abstract method updateQualityAndSellIn(Item) in QualityAndSellInCalculator
-    Sulfuras {
-    ^
-QualityAndSellInCalculator.java:6: error: <anonymous QualityAndSellInCalculator$3> is not abstract and does not override abstract method updateQualityAndSellIn(Item) in QualityAndSellInCalculator
-    BackStagePasses {
-    ^
-QualityAndSellInCalculator.java:10: error: abstract methods cannot have a body
-    public abstract String updateQualityAndSellIn(Item item) {
-                           ^
-4 errors
+QualityAndSellInCalculator.java:19: error: abstract methods cannot have a body
+    public abstract void updateQualityAndSellIn(Item item) {
+                         ^
+1 error
 Error: Could not find or load main class TexttestFixture
