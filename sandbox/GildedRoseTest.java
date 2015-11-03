@@ -163,6 +163,20 @@ public class GildedRoseTest {
         assertEquals(18, items[0].quality);
     }
 
-    // TODO: quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_0
+    @Test
+    public void quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_or_equal_to_0() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("Backstage passes to a TAFKAL80ETC concert", 0, 20)
+            };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(0, items[0].quality);
+    }
+
     // TODO: quality_of_aged_brie_should_increase_by_2_if_sellIn_is_less_than_0
 }
