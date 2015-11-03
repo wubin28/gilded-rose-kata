@@ -22,7 +22,7 @@ public class GildedRoseTest {
         app.updateQuality();
 
         // Then
-        assertEquals(19, normalItem.quality);
+        assertEquals(19, items[0].quality);
     }
 
     // TODO: quality_of_normal_item_should_not_degrade_to_be_negative
