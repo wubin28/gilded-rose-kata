@@ -148,7 +148,21 @@ public class GildedRoseTest {
         assertEquals(-2, items[2].sellIn);
     }
 
-    // TODO: quality_of_normal_item_should_degrade_by_2_if_sellIn_is_less_than_0
+    @Test
+    public void quality_of_normal_item_should_degrade_by_2_if_sellIn_is_less_than_or_equal_to_0() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("+5 Dexterity Vest", 0, 20)
+            };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(18, items[0].sellIn);
+    }
+
     // TODO: quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_0
     // TODO: quality_of_aged_brie_should_increase_by_2_if_sellIn_is_less_than_0
 }
