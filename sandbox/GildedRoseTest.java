@@ -87,7 +87,20 @@ public class GildedRoseTest {
         assertEquals(22, items[0].quality);
     }
 
-    // TODO: quality_of_backstage_passes_should_increase_by_3_if_sellIn_is_more_than_0_and_less_than_6
+    @Test
+    public void quality_of_backstage_passes_should_increase_by_3_if_sellIn_is_more_than_0_and_less_than_6() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("Backstage passes to a TAFKAL80ETC concert", 5, 20) };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(23, items[0].quality);
+    }
+
     // TODO: quality_of_backstage_passes_should_increase_up_to_50
     // TODO: sellIn_of_sulfuras_should_never_be_changed
     // TODO: sellIn_of_item_other_than_sulfuras_should_degrade_at_the_end_of_each_day
