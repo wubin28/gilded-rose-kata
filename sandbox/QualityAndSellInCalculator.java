@@ -4,7 +4,7 @@ public enum QualityAndSellInCalculator {
         public void updateQualityAndSellIn(Item item) {
         }
     },
-    Sulfuras {
+    Sulfuras("Sulfuras, Hand of Ragnaros") {
         @Override
         public void updateQualityAndSellIn(Item item) {
         }

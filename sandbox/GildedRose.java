@@ -10,8 +10,6 @@ class GildedRose {
             try {
                 QualityAndSellInCalculator.valueOf(items[i].name).updateQualityAndSellIn(items[i]);
             } catch (IllegalArgumentException illegalArgumentException) {
-                if (items[i].name.equals("Sulfuras, Hand of Ragnaros")) continue;
-
                 if (items[i].name.equals("Aged Brie")) {
                     if (items[i].quality < 50) items[i].quality += 1;
 
