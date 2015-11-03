@@ -178,5 +178,19 @@ public class GildedRoseTest {
         assertEquals(0, items[0].quality);
     }
 
-    // TODO: quality_of_aged_brie_should_increase_by_2_if_sellIn_is_less_than_0
+    @Test
+    public void quality_of_aged_brie_should_increase_by_2_if_sellIn_is_less_than_or_equal_to_0() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("Aged Brie", 0, 20)
+            };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(18, items[0].quality);
+    }
+
 }
