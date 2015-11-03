@@ -1,5 +1,5 @@
 public enum QualityAndSellInCalculator {
-    AgedBrie {
+    AgedBrie("Aged Brie") {
         @Override
         public void updateQualityAndSellIn(Item item) {
         }
@@ -9,7 +9,7 @@ public enum QualityAndSellInCalculator {
         public void updateQualityAndSellIn(Item item) {
         }
     },
-    BackStagePasses {
+    BackStagePasses("Backstage passes to a TAFKAL80ETC concert") {
         @Override
         public void updateQualityAndSellIn(Item item) {
         }
