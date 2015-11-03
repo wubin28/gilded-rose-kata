@@ -207,6 +207,19 @@ public class GildedRoseTest {
         assertEquals(18, items[0].quality);
     }
 
-    // TODO: quality_of_conjured_item_should_degrade_by_4_if_sellIn_is_less_than_or_equal_to_0
+    @Test
+    public void quality_of_conjured_item_should_degrade_by_4_if_sellIn_is_less_than_or_equal_to_0() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("Conjured_Mana_Cake", 0, 20) };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(16, items[0].quality);
+    }
+
     // TODO: quality_of_conjured_item_should_not_degrade_to_be_negative
 }
