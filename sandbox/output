@@ -1,261 +1,90 @@
-JUnit version 4.11-SNAPSHOT-20120416-1530
-.>>>In IllegalArgumentException.
-.>>>In IllegalArgumentException.
-E.>>>In Aged Brie.
-.>>>In IllegalArgumentException.
-.>>>In Sulfuras
-.>>>In IllegalArgumentException.
-E.>>>In IllegalArgumentException.
-E.>>>In Aged Brie.
-.>>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
-.>>>In IllegalArgumentException.
-E.>>>In IllegalArgumentException.
-.>>>In IllegalArgumentException.
-E.>>>In Aged Brie.
-
-Time: 0.059
-There were 5 failures:
-1) quality_of_backstage_passes_should_increase_up_to_50(GildedRoseTest)
-java.lang.AssertionError: expected:<50> but was:<49>
-	at org.junit.Assert.fail(Assert.java:92)
-	at org.junit.Assert.failNotEquals(Assert.java:646)
-	at org.junit.Assert.assertEquals(Assert.java:127)
-	at org.junit.Assert.assertEquals(Assert.java:471)
-	at org.junit.Assert.assertEquals(Assert.java:455)
-	at GildedRoseTest.quality_of_backstage_passes_should_increase_up_to_50(GildedRoseTest.java:115)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:269)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:24)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:151)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:130)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:111)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:92)
-	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:38)
-2) quality_of_backstage_passes_should_increase_by_3_if_sellIn_is_more_than_0_and_less_than_6(GildedRoseTest)
-java.lang.AssertionError: expected:<23> but was:<19>
-	at org.junit.Assert.fail(Assert.java:92)
-	at org.junit.Assert.failNotEquals(Assert.java:646)
-	at org.junit.Assert.assertEquals(Assert.java:127)
-	at org.junit.Assert.assertEquals(Assert.java:471)
-	at org.junit.Assert.assertEquals(Assert.java:455)
-	at GildedRoseTest.quality_of_backstage_passes_should_increase_by_3_if_sellIn_is_more_than_0_and_less_than_6(GildedRoseTest.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:269)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:24)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:151)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:130)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:111)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:92)
-	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:38)
-3) quality_of_backstage_passes_should_increase_by_2_if_sellIn_is_more_than_5_and_less_than_11(GildedRoseTest)
-java.lang.AssertionError: expected:<22> but was:<19>
-	at org.junit.Assert.fail(Assert.java:92)
-	at org.junit.Assert.failNotEquals(Assert.java:646)
-	at org.junit.Assert.assertEquals(Assert.java:127)
-	at org.junit.Assert.assertEquals(Assert.java:471)
-	at org.junit.Assert.assertEquals(Assert.java:455)
-	at GildedRoseTest.quality_of_backstage_passes_should_increase_by_2_if_sellIn_is_more_than_5_and_less_than_11(GildedRoseTest.java:87)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:269)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:24)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:151)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:130)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:111)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:92)
-	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:38)
-4) quality_of_backstage_passes_should_increase_by_1_if_sellIn_is_more_than_10(GildedRoseTest)
-java.lang.AssertionError: expected:<21> but was:<19>
-	at org.junit.Assert.fail(Assert.java:92)
-	at org.junit.Assert.failNotEquals(Assert.java:646)
-	at org.junit.Assert.assertEquals(Assert.java:127)
-	at org.junit.Assert.assertEquals(Assert.java:471)
-	at org.junit.Assert.assertEquals(Assert.java:455)
-	at GildedRoseTest.quality_of_backstage_passes_should_increase_by_1_if_sellIn_is_more_than_10(GildedRoseTest.java:73)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:269)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:24)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:151)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:130)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:111)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:92)
-	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:38)
-5) quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_or_equal_to_0(GildedRoseTest)
-java.lang.AssertionError: expected:<0> but was:<18>
-	at org.junit.Assert.fail(Assert.java:92)
-	at org.junit.Assert.failNotEquals(Assert.java:646)
-	at org.junit.Assert.assertEquals(Assert.java:127)
-	at org.junit.Assert.assertEquals(Assert.java:471)
-	at org.junit.Assert.assertEquals(Assert.java:455)
-	at GildedRoseTest.quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_or_equal_to_0(GildedRoseTest.java:178)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:269)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:24)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:237)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:61)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:235)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:51)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:228)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:306)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:151)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:130)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:111)
-	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:92)
-	at org.junit.runner.JUnitCore.runMainAndExit(JUnitCore.java:47)
-	at org.junit.runner.JUnitCore.main(JUnitCore.java:38)
-
-FAILURES!!!
-Tests run: 13,  Failures: 5
-
-OMGHAI!
--------- day 0 --------
-name, sellIn, quality
-+5 Dexterity Vest, 10, 20
-Aged Brie, 2, 0
-Elixir of the Mongoose, 5, 7
-Sulfuras, Hand of Ragnaros, 0, 80
-Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 15, 20
-Backstage passes to a TAFKAL80ETC concert, 10, 49
-Backstage passes to a TAFKAL80ETC concert, 5, 49
-Conjured Mana Cake, 3, 6
-
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
--------- day 1 --------
-name, sellIn, quality
-+5 Dexterity Vest, 9, 19
-Aged Brie, 1, 0
-Elixir of the Mongoose, 4, 6
-Sulfuras, Hand of Ragnaros, -1, 78
-Sulfuras, Hand of Ragnaros, -2, 78
-Backstage passes to a TAFKAL80ETC concert, 14, 21
-Backstage passes to a TAFKAL80ETC concert, 9, 50
-Backstage passes to a TAFKAL80ETC concert, 4, 50
-Conjured Mana Cake, 2, 5
-
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
->>>In IllegalArgumentException.
+QualityAndSellInCalculator.java:25: error: cannot find symbol
+            if (items[i].quality < 50) {
+                ^
+  symbol: variable items
+QualityAndSellInCalculator.java:25: error: cannot find symbol
+            if (items[i].quality < 50) {
+                      ^
+  symbol: variable i
+QualityAndSellInCalculator.java:26: error: cannot find symbol
+                items[i].quality += 1;
+                ^
+  symbol: variable items
+QualityAndSellInCalculator.java:26: error: cannot find symbol
+                items[i].quality += 1;
+                      ^
+  symbol: variable i
+QualityAndSellInCalculator.java:28: error: cannot find symbol
+                if (items[i].sellIn < 11) {
+                    ^
+  symbol: variable items
+QualityAndSellInCalculator.java:28: error: cannot find symbol
+                if (items[i].sellIn < 11) {
+                          ^
+  symbol: variable i
+QualityAndSellInCalculator.java:29: error: cannot find symbol
+                    if (items[i].quality < 50) {
+                        ^
+  symbol: variable items
+QualityAndSellInCalculator.java:29: error: cannot find symbol
+                    if (items[i].quality < 50) {
+                              ^
+  symbol: variable i
+QualityAndSellInCalculator.java:30: error: cannot find symbol
+                        items[i].quality += 1;
+                        ^
+  symbol: variable items
+QualityAndSellInCalculator.java:30: error: cannot find symbol
+                        items[i].quality += 1;
+                              ^
+  symbol: variable i
+QualityAndSellInCalculator.java:34: error: cannot find symbol
+                if (items[i].sellIn < 6) {
+                    ^
+  symbol: variable items
+QualityAndSellInCalculator.java:34: error: cannot find symbol
+                if (items[i].sellIn < 6) {
+                          ^
+  symbol: variable i
+QualityAndSellInCalculator.java:35: error: cannot find symbol
+                    if (items[i].quality < 50) {
+                        ^
+  symbol: variable items
+QualityAndSellInCalculator.java:35: error: cannot find symbol
+                    if (items[i].quality < 50) {
+                              ^
+  symbol: variable i
+QualityAndSellInCalculator.java:36: error: cannot find symbol
+                        items[i].quality += 1;
+                        ^
+  symbol: variable items
+QualityAndSellInCalculator.java:36: error: cannot find symbol
+                        items[i].quality += 1;
+                              ^
+  symbol: variable i
+QualityAndSellInCalculator.java:41: error: cannot find symbol
+            items[i].sellIn -= 1;
+            ^
+  symbol: variable items
+QualityAndSellInCalculator.java:41: error: cannot find symbol
+            items[i].sellIn -= 1;
+                  ^
+  symbol: variable i
+QualityAndSellInCalculator.java:43: error: cannot find symbol
+            if (items[i].sellIn < 0) {
+                ^
+  symbol: variable items
+QualityAndSellInCalculator.java:43: error: cannot find symbol
+            if (items[i].sellIn < 0) {
+                      ^
+  symbol: variable i
+QualityAndSellInCalculator.java:44: error: cannot find symbol
+                items[i].quality = 0;
+                ^
+  symbol: variable items
+QualityAndSellInCalculator.java:44: error: cannot find symbol
+                items[i].quality = 0;
+                      ^
+  symbol: variable i
+22 errors
+Error: Could not find or load main class TexttestFixture
