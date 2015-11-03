@@ -144,8 +144,8 @@ public class GildedRoseTest {
 
         // Then
         assertEquals(-1, items[0].sellIn);
-        assertEquals(9, items[0].sellIn);
-        assertEquals(-2, items[0].sellIn);
+        assertEquals(9, items[1].sellIn);
+        assertEquals(-2, items[2].sellIn);
     }
 
     // TODO: quality_of_normal_item_should_degrade_by_2_if_sellIn_is_less_than_0
