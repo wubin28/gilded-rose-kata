@@ -190,7 +190,7 @@ public class GildedRoseTest {
         app.updateQuality();
 
         // Then
-        assertEquals(18, items[0].quality);
+        assertEquals(22, items[0].quality);
     }
 
 }
