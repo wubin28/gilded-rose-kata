@@ -197,7 +197,7 @@ public class GildedRoseTest {
     public void quality_of_conjured_item_should_degrade_by_2_at_the_end_of_each_day() {
         // Given
         Item[] items = new Item[] {
-            new Item("Conjured Mana Cake", 10, 20) };
+            new Item("Conjured_Mana_Cake", 10, 20) };
         GildedRose app = new GildedRose(items);
 
         // When

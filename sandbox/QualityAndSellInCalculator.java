@@ -42,6 +42,22 @@ public enum QualityAndSellInCalculator {
             }
 
         }
+    },
+    Conjured_Mana_Cake {
+        @Override
+        public void updateQualityAndSellIn(Item item) {
+            if (items[i].quality > 0) {
+                items[i].quality -= 2;
+            }
+
+            items[i].sellIn -= 1;
+
+            if (items[i].sellIn < 0) {
+                if (items[i].quality > 0) {
+                    items[i].quality -= 1;
+                }
+            }
+        }
     }
     ;
 
