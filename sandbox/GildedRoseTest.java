@@ -115,7 +115,20 @@ public class GildedRoseTest {
         assertEquals(50, items[0].quality);
     }
 
-    // TODO: sellIn_of_sulfuras_should_never_be_changed
+    @Test
+    public void sellIn_of_sulfuras_should_never_be_changed() {
+        // Given
+        Item[] items = new Item[] {
+            new Item("Sulfuras, Hand of Ragnaros", 0, 80) };
+        GildedRose app = new GildedRose(items);
+
+        // When
+        app.updateQuality();
+
+        // Then
+        assertEquals(80, items[0].quality);
+    }
+
     // TODO: sellIn_of_item_other_than_sulfuras_should_degrade_at_the_end_of_each_day
     // TODO: quality_of_normal_item_should_degrade_by_2_if_sellIn_is_less_than_0
     // TODO: quality_of_backstage_passes_should_degrade_to_be_0_if_sellIn_is_less_than_0
