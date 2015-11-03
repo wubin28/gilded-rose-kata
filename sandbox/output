@@ -1,6 +1,6 @@
 JUnit version 4.11-SNAPSHOT-20120416-1530
-.............E...
-Time: 0.052
+........E........
+Time: 0.054
 There was 1 failure:
 1) quality_of_conjured_item_should_not_degrade_to_be_negative(GildedRoseTest)
 java.lang.AssertionError: expected:<0> but was:<-1>
