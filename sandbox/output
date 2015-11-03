@@ -1,7 +1,7 @@
 GildedRose.java:10: error: cannot find symbol
             QualityAndSellInCalculator.valueOf(items[i].name).updateQualityAndSellIn(items[i]);
-            ^
-  symbol:   variable QualityAndSellInCalculator
-  location: class GildedRose
+                                                             ^
+  symbol:   method updateQualityAndSellIn(Item)
+  location: class QualityAndSellInCalculator
 1 error
 Error: Could not find or load main class TexttestFixture
