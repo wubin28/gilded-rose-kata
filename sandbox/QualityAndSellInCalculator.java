@@ -18,7 +18,7 @@ public enum QualityAndSellInCalculator {
             System.out.println(">>>In Sulfuras");
         }
     },
-    BackStagePassesToATAFKAL80Concert {
+    BackstagePassesToATAFKAL80ETCConcert {
         @Override
         public void updateQualityAndSellIn(Item item) {
             System.out.println(">>>In Backstage");
