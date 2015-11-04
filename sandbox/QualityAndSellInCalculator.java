@@ -63,6 +63,7 @@ public enum QualityAndSellInCalculator {
     }
     ;
 
-    public abstract void updateQualityAndSellIn(Item item);
+    public void updateQualityAndSellIn(Item item){
+    }
 
 }
