@@ -70,9 +70,9 @@ public enum QualityAndSellInCalculator {
     ;
 
     public void updateQualityAndSellIn(Item item){
-        updateQualityBeforeDecreasingSellIn(Item item);
-        decreaseSellIn(Item item);
-        updateQualityAfterDecreasingSellIn(Item item);
+        updateQualityBeforeDecreasingSellIn(item);
+        decreaseSellIn(item);
+        updateQualityAfterDecreasingSellIn(item);
     }
     
     protected abstract void updateQualityBeforeDecreasingSellIn(Item item); 
