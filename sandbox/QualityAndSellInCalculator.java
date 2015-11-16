@@ -24,21 +24,15 @@ public enum QualityAndSellInCalculator {
     Backstage_Passes_To_A_TAFKAL80ETC_Concert {
         @Override
         public void updateQualityBeforeDecreasingSellIn(Item item) {
-            if (item.quality < 50) {
-                item.quality += 1;
-
-                if (item.sellIn < 11) {
-                    if (item.quality < 50) {
-                        item.quality += 1;
-                    }
-                }
-
-                if (item.sellIn < 6) {
-                    if (item.quality < 50) {
-                        item.quality += 1;
-                    }
-                }
+            if (item.sellIn > 10) {
+                item.quality = (item.quality < 50 ? item.quality + 1 : 50);
+                return;
             }
+            if (item.sellIn > 5) {
+                item.quality = (item.quality < 50 ? item.quality + 2 : 50);
+                return;
+            }
+            item.quality = (item.quality < 50 ? item.quality + 3 : 50);
         }
 
         @Override
